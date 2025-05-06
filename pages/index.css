@@ -40,7 +40,6 @@
 }
 
 .nav__links {
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -59,7 +58,6 @@
 }
 
 .header__title {
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
@@ -113,29 +111,18 @@
   position: absolute;
 }
 
-.header__times {
-  font-family: "Inter", Arial, sans-serif;
+.header__paragraph {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #6f6f6f;
-}
-
-p {
+  color: #838383;
   margin: 0;
 }
 
-.header__paragraph {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6f6f6f;
+.header__paragraph_address {
   display: flex;
   align-self: flex-end;
-  margin: 0;
 }
 
 /* ----- CSS para section recipes----- */
@@ -155,7 +142,6 @@ p {
   margin: 0 0 0 80px;
   padding-top: 100px;
   max-width: 580px;
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
