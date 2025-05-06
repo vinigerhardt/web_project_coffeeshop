@@ -113,13 +113,17 @@
   position: absolute;
 }
 
-.header__footer_times {
+.header__times {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
+}
+
+p {
+  margin: 0;
 }
 
 .header__paragraph {
