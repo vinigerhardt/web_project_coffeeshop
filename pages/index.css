@@ -228,7 +228,7 @@
   line-height: 30px;
 }
 
-.form__label {
+.fieldset__label {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -237,7 +237,7 @@
   margin-bottom: 8px;
 }
 
-.form__input {
+.fieldset__input {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -250,7 +250,7 @@
   padding: 15px 20px;
 }
 
-.form__input::placeholder {
+.fieldset__input::placeholder {
   color: #838383;
 }
 
