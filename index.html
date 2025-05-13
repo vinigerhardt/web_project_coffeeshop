@@ -10,7 +10,6 @@
       content="Página criada para exercicio de aprendizagem de HTML e CSS"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,7 +35,7 @@
           <img
             src="./images/logo_coffeeshop_dark.svg"
             class="nav__logo"
-            alt="logotipo triple espresso dark"
+            alt="logo triple espresso dark"
           />
           <ul class="nav__links">
             <li>
@@ -118,44 +117,42 @@
         <section class="reservation" id="reservation">
           <h3 class="reservation__title">Reservar uma mesa</h3>
           <form class="reservation__form form" method="GET" action="#">
-            <div class="form fieldset">
-              <label for="name" class="fieldset__label">Nome *</label>
+            <div class="form__fieldset">
+              <label for="name" class="form__label">Nome *</label>
               <input
                 type="text"
                 id="name"
                 placeholder="Nome"
-                class="fieldset__input"
+                class="form__input"
                 required
               />
 
-              <label for="convidados" class="fieldset__label"
+              <label for="convidados" class="form__label"
                 >Número de convidados *</label
               >
               <input
                 type="number"
                 id="convidados"
-                class="fieldset__input"
+                class="form__input"
                 placeholder="1-8"
                 min="1"
                 max="8"
                 required
               />
 
-              <label for="dataehora" class="fieldset__label"
-                >Data & hora *</label
-              >
+              <label for="dataehora" class="form__label">Data & hora *</label>
               <input
                 type="datetime-local"
                 id="dataehora"
-                class="fieldset__input"
+                class="form__input"
                 required
               />
 
-              <label for="email" class="fieldset__label">Seu e-mail *</label>
+              <label for="email" class="form__label">Seu e-mail *</label>
               <input
                 type="email"
                 id="email"
-                class="fieldset__input"
+                class="form__input"
                 placeholder="email@email.com"
                 required
               />
@@ -176,7 +173,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="contatos"></footer>
+      <footer class="footer" id="contatos">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            class="footer__logo"
+            alt="Logo triple espresso light"
+          />
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídia social</p>
+            <ul class="footer__list">
+              <li>
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2025 Gerhardt</p>
+        <div class="footer__circle"></div>
+      </footer>
     </div>
   </body>
 </html>
