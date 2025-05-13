@@ -27,15 +27,6 @@
   color: black;
 }
 
-.header__title_span-accent {
-  font-family: "Noto Serif", Times New Roman, serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
-  color: #2f80ed;
-}
-
 .header__description {
   font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
